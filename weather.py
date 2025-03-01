@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 
 register_page(__name__, path="/weather")  # Registering the page
 
-API_KEY = 'aa9d7005dd9ca59b534b90b5e635607e'
+API_KEY = ''
 
 # Function to fetch weather data
 def fetch_weather_data(city):
