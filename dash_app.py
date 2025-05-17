@@ -4,6 +4,7 @@ from dash import Dash, html, dcc, Input, Output
 
 # Initialize the app
 app = Dash(__name__, external_stylesheets=[dbc.themes.DARKLY], use_pages=True)
+server = app.server
 
 app.layout = html.Div([
     dcc.Location(id="url", refresh=False),  # URL monitor
