@@ -20,9 +20,7 @@ app.layout = html.Div([
                 dbc.NavItem(dbc.NavLink("Postal Codes", href="/choropleth", id="link-postal", 
                                         style={"color": "white", "font-size": "25px", "margin-left": "50px"})),
                 dbc.NavItem(dbc.NavLink("Buildings", href="/scatter", id="link-buildings", 
-                                        style={"color": "white", "font-size": "25px", "margin-left": "50px"})),
-                dbc.NavItem(dbc.NavLink("Weather", href="/weather", id="link-weather", 
-                                        style={"color": "white", "font-size": "25px", "margin-left": "50px"})),
+                                        style={"color": "white", "font-size": "25px", "margin-left": "50px"}))
 
             ], className="ms-auto", navbar=True, style={"margin-left": "auto", "padding-right": "50px"})
         ], fluid=True),
