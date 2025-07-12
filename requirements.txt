@@ -1,7 +1,7 @@
 dash
+dash-bootstrap-components
+dash-bootstrap-templates
+dash-ag-grid
+plotly
+pandas
 gunicorn
-dash
-gunicorn
-dash_bootstrap_components
-dash_ag_grid
-numpy
